@@ -1,0 +1,74 @@
+{
+  "id": "com.kitefinance.app",
+  "name": "KiteFinance - Personal Finance & Daily Expenses",
+  "short_name": "KiteFinance",
+  "description": "KiteFinance is an Android personal finance manager and daily expense tracker. Track daily expenditures, manage recurring bills and financial tasks with calendar export, monitor monthly budget limits, and log expenses rapidly with physical phone back-tap gestures with full offline support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "theme_color": "#0F172A",
+  "background_color": "#090D16",
+  "categories": [
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Expense",
+      "short_name": "Add",
+      "description": "Quickly log a new daily expense",
+      "url": "/?action=add",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Finance Tasks & Bills",
+      "short_name": "Tasks",
+      "description": "View upcoming bills and finance tasks",
+      "url": "/?tab=tasks",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Budget & Analytics",
+      "short_name": "Budget",
+      "description": "Check monthly budget and spending pace",
+      "url": "/?tab=analytics",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
